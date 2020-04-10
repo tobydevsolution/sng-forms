@@ -1,0 +1,94 @@
+/* css document */
+
+
+ * {
+     padding: 0;
+     margin: 0;
+ }
+
+
+ body {
+     
+     background-color: #add8e6;
+ }
+.RegisterBox {
+   
+    background-color: #fff;
+    width: 450px;
+    height: 500px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    border-radius: 30px 30px; 
+    color: #fff;
+   padding: 70px 30px;
+}
+
+
+.RegisterBox  p {
+    font-family: arial;
+    font-weight: 50;
+    padding: 10px;
+    margin: 0;
+    color: darkslategrey;
+
+}
+h2 {
+    text-align: center;
+    font: arial;
+    color: darkcyan;
+}
+
+.RegisterBox input {
+    width: 100%;
+    height: 40px;
+
+}
+
+.RegisterBox input[type="text"]  {
+    border: none;
+    background: #c2beee;
+    color: gray;
+    border-radius: 2px;
+    overflow: hidden;
+}
+.RegisterBox input [type="text"] , input[type="password"]::placeholder {
+    color: gray;
+
+}
+::placeholder {
+    color: gray;
+}
+
+.RegisterBox input[type="submit"] {
+    margin-top: 20px;
+    height: 50px;
+    width: 100%;
+    border: none;
+    border-radius: 30px;
+    background-color: tomato;
+    display: inline-block;
+    color: yellow;
+}
+
+.RegisterBox [type="submit"]:hover {
+    background-color: orangered;
+    cursor: pointer;
+
+}
+.RegisterBox a {
+    display: block;
+    color: #fff;
+    font-size: 16px;
+    text-decoration: none;
+    font: arial;
+   
+}
+.form-link {
+    margin-top: 20px;
+}
+
+
+
